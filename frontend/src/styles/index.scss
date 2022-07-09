@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background: url('../../public/background-black.jpg');
+  min-height: 100vh;
+}

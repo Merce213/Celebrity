@@ -1,0 +1,54 @@
+.rc-tabs {
+  border: none !important;
+  border-radius: 10px;
+}
+.rc-tabs-tab {
+  padding: 5px;
+  text-transform: capitalize;
+  background: rgb(15 23 42);
+  color: rgb(110 231 183);
+  border-top: 1px solid;
+}
+
+.rc-tabs-tab:hover {
+  color: rgb(15 23 42);
+  background: rgb(110 231 183);
+}
+
+.rc-tabs-tab:first-child {
+  border: 0px;
+}
+
+.rc-tabs-tab:last-child {
+  border: 0px;
+}
+
+.rc-tabs-tab .rc-tabs-tab-btn {
+  font-weight: bold;
+}
+.rc-tabs-tab.rc-tabs-tab-active {
+  background: rgb(110 231 183);
+  color: rgb(15 23 42);
+}
+.rc-tabs-ink-bar {
+  background: rgb(163 230 53) !important;
+}
+.rc-tabs-content-holder {
+  padding: 1rem;
+  background: rgb(209 250 229);
+  color: rgb(16 185 129);
+  font-size: 1rem;
+  font-weight: bold;
+  overflow: auto;
+}
+
+.rc-tabs-nav-more {
+  border: none;
+  background: rgb(15 23 42);
+  color: rgb(110 231 183);
+}
+
+.rc-tabs-nav-more:hover {
+  color: rgb(15 23 42);
+  background: rgb(110 231 183);
+}
